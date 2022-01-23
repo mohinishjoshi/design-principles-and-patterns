@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_YiuMEMzaEeuS_-RlxiJ9Hw" name="abstract_factory_bad">
+    <eAnnotations xmi:id="_YkGFEMzaEeuS_-RlxiJ9Hw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_YkGFEczaEeuS_-RlxiJ9Hw" source="codegen">
+        <details xmi:id="_YkGFEszaEeuS_-RlxiJ9Hw" key="codegenDirectory" value="/DesignPatterns/src/main/java"/>
+        <details xmi:id="_YueJEMzaEeuS_-RlxiJ9Hw" key="AssociatedSourceCode" value="/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/bad/Cab.java;2581940465/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/bad/Driver.java;3816462253/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/bad/MicroCab.java;1391027735/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/bad/MicroDriver.java;3777996532/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/bad/MiniCab.java;1716807687/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/bad/MiniDriver.java;2444476677/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/bad/SedanCab.java;2412372152/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/bad/SedanDriver.java;312494496/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/bad/SedanPlayCab.java;537354911/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/bad/SedanPlayDriver.java;2457377168/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/bad/Trip.java;2125684412/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/bad/TripDemo.java;3954382376/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/good/Cab.java;1885196985/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/good/Driver.java;4120946218/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/good/MiniCab.java;3970656664/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/good/MiniDriver.java;1951288538/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/good/MiniFactory.java;3968470598/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/good/MiniMicroCab.java;3452306410/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/good/MiniMicroDriver.java;1513048719/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/good/SedanCab.java;2626484894/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/good/SedanDriver.java;30546340/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/good/SedanFactory.java;1090961443/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/good/SedanPlayCab.java;1088417157/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/good/SedanPlayDriver.java;4225413053/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/good/Trip.java;1731196585/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/good/TripDemo.java;561435883/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/good/TripFactory.java;292105932/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/abstractfactory/good/TripType.java;2827410742/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/factory/bad/AboutPage.java;4150327323/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/factory/bad/CartPage.java;1665770889/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/factory/bad/CommentPage.java;1326730461/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/factory/bad/ContactPage.java;79205668/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/factory/bad/FactoryBadDemo.java;3744326881/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/factory/bad/HomePage.java;3368516489/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/factory/bad/SearchPage.java;2227155198/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/factory/bad/Website.java;2466963785/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/factory/good/AboutPage.java;1474646376/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/factory/good/Blog.java;605286703/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/factory/good/CartPage.java;3959598697/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/factory/good/CommentPage.java;3826048289/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/factory/good/ContactPage.java;2946499800/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/factory/good/ECommerce.java;2446027303/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/factory/good/FactoryDemo.java;2900046052/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/factory/good/FactoryEverydayDemo.java;117046977/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/factory/good/HomePage.java;1200386153/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/factory/good/Page.java;1267660242/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/factory/good/PostPage.java;1816483140/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/factory/good/SearchPage.java;1293096401/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/factory/good/Website.java;4004491265/1;/DesignPatterns/src/main/java/com/upgrad/designpatterns/creational/factory/good/WebsiteFactory.java;1391083645/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_Yp05oMzaEeuS_-RlxiJ9Hw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_Yp05oczaEeuS_-RlxiJ9Hw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_Yp05oszaEeuS_-RlxiJ9Hw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_Yp05o8zaEeuS_-RlxiJ9Hw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_Yp05pMzaEeuS_-RlxiJ9Hw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_Yp05pczaEeuS_-RlxiJ9Hw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_Yp05pszaEeuS_-RlxiJ9Hw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_Yp05p8zaEeuS_-RlxiJ9Hw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_Yp05qMzaEeuS_-RlxiJ9Hw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Ype7YMzaEeuS_-RlxiJ9Hw" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_YpficMzaEeuS_-RlxiJ9Hw" name="upgrad">
+        <packagedElement xmi:type="uml:Package" xmi:id="_YpficczaEeuS_-RlxiJ9Hw" name="designpatterns">
+          <packagedElement xmi:type="uml:Package" xmi:id="_YpficszaEeuS_-RlxiJ9Hw" name="creational">
+            <packagedElement xmi:type="uml:Package" xmi:id="_Ypfic8zaEeuS_-RlxiJ9Hw" name="abstractfactory">
+              <packagedElement xmi:type="uml:Package" xmi:id="_YpfidMzaEeuS_-RlxiJ9Hw" name="bad">
+                <packagedElement xmi:type="uml:Class" xmi:id="_Ypx2UMzaEeuS_-RlxiJ9Hw" name="Cab"/>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Yp0SkMzaEeuS_-RlxiJ9Hw" name="Driver"/>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Yp0SkczaEeuS_-RlxiJ9Hw" name="MicroCab">
+                  <generalization xmi:id="_Yra1EMzaEeuS_-RlxiJ9Hw" general="_Ypx2UMzaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Yp1gsMzaEeuS_-RlxiJ9Hw" name="MicroDriver">
+                  <generalization xmi:id="_Yra1EczaEeuS_-RlxiJ9Hw" general="_Yp0SkMzaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Yp2HwMzaEeuS_-RlxiJ9Hw" name="MiniCab">
+                  <generalization xmi:id="_Yra1EszaEeuS_-RlxiJ9Hw" general="_Ypx2UMzaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Yp2HwczaEeuS_-RlxiJ9Hw" name="MiniDriver">
+                  <generalization xmi:id="_Yra1E8zaEeuS_-RlxiJ9Hw" general="_Yp0SkMzaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Yp2HwszaEeuS_-RlxiJ9Hw" name="SedanCab">
+                  <generalization xmi:id="_Yra1FMzaEeuS_-RlxiJ9Hw" general="_Ypx2UMzaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Yp2u0MzaEeuS_-RlxiJ9Hw" name="SedanDriver">
+                  <generalization xmi:id="_YrbcIMzaEeuS_-RlxiJ9Hw" general="_Yp0SkMzaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Yp2u0czaEeuS_-RlxiJ9Hw" name="SedanPlayCab">
+                  <generalization xmi:id="_YrbcIczaEeuS_-RlxiJ9Hw" general="_Yp2HwszaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Yp3V4MzaEeuS_-RlxiJ9Hw" name="SedanPlayDriver">
+                  <generalization xmi:id="_YrbcIszaEeuS_-RlxiJ9Hw" general="_Yp2u0MzaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Yp3V4czaEeuS_-RlxiJ9Hw" name="Trip">
+                  <ownedAttribute xmi:id="_Yriw4MzaEeuS_-RlxiJ9Hw" name="cab" visibility="private" type="_Ypx2UMzaEeuS_-RlxiJ9Hw" association="_YrpekMzaEeuS_-RlxiJ9Hw"/>
+                  <ownedAttribute xmi:id="_Yriw4szaEeuS_-RlxiJ9Hw" name="driver" visibility="private" type="_Yp0SkMzaEeuS_-RlxiJ9Hw" association="_YrqFoczaEeuS_-RlxiJ9Hw"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Yrl0MMzaEeuS_-RlxiJ9Hw" name="Trip" specification="_YrbcI8zaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_Yrl0MczaEeuS_-RlxiJ9Hw" name="cab" type="_Ypx2UMzaEeuS_-RlxiJ9Hw"/>
+                    <ownedParameter xmi:id="_Yrl0MszaEeuS_-RlxiJ9Hw" name="driver" type="_Yp0SkMzaEeuS_-RlxiJ9Hw"/>
+                    <ownedParameter xmi:id="_Yrl0M8zaEeuS_-RlxiJ9Hw" type="_Yp3V4czaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>this.cab = cab;
+     this.driver = driver;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Yrl0NMzaEeuS_-RlxiJ9Hw" name="startTrip" specification="_Yp388MzaEeuS_-RlxiJ9Hw">
+                    <language>java</language>
+                    <body>System.out.println(&quot;Starting the Trip&quot;);
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Yrl0NczaEeuS_-RlxiJ9Hw" name="endTrip" specification="_Yp388czaEeuS_-RlxiJ9Hw">
+                    <language>java</language>
+                    <body>System.out.println(&quot;Ending the Trip&quot;);
+     System.out.println(&quot;Thank you for Using our Taxi Service&quot;);
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_Yp388MzaEeuS_-RlxiJ9Hw" name="startTrip" method="_Yrl0NMzaEeuS_-RlxiJ9Hw"/>
+                  <ownedOperation xmi:id="_Yp388czaEeuS_-RlxiJ9Hw" name="endTrip" method="_Yrl0NczaEeuS_-RlxiJ9Hw"/>
+                  <ownedOperation xmi:id="_YrbcI8zaEeuS_-RlxiJ9Hw" name="Trip" method="_Yrl0MMzaEeuS_-RlxiJ9Hw">
+                    <eAnnotations xmi:id="_YrbcJszaEeuS_-RlxiJ9Hw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_YrbcJ8zaEeuS_-RlxiJ9Hw" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_YrbcJMzaEeuS_-RlxiJ9Hw" name="cab" type="_Ypx2UMzaEeuS_-RlxiJ9Hw"/>
+                    <ownedParameter xmi:id="_YrbcJczaEeuS_-RlxiJ9Hw" name="driver" type="_Yp0SkMzaEeuS_-RlxiJ9Hw"/>
+                    <ownedParameter xmi:id="_YrbcKMzaEeuS_-RlxiJ9Hw" type="_Yp3V4czaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Yp4kAMzaEeuS_-RlxiJ9Hw" name="TripDemo">
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Yrl0NszaEeuS_-RlxiJ9Hw" name="main" specification="_Yp4kAczaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_Yrl0N8zaEeuS_-RlxiJ9Hw" name="args">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Yrl0OMzaEeuS_-RlxiJ9Hw" value="*"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>Trip trip = new Trip(new MiniCab(), new MiniDriver());
+
+     System.out.println(&quot;Mini Cab&quot;);
+     trip.startTrip();
+     trip.endTrip();
+
+     trip = new Trip(new SedanPlayCab(), new MiniDriver());
+
+     System.out.println(&quot;Mini Cab&quot;);
+     trip.startTrip();
+     trip.endTrip();
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_Yp4kAczaEeuS_-RlxiJ9Hw" name="main" isStatic="true" method="_Yrl0NszaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_Yp4kAszaEeuS_-RlxiJ9Hw" name="args">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Yp4kA8zaEeuS_-RlxiJ9Hw" value="*"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_YrpekMzaEeuS_-RlxiJ9Hw" name="" memberEnd="_YrpekczaEeuS_-RlxiJ9Hw _Yriw4MzaEeuS_-RlxiJ9Hw">
+                  <ownedEnd xmi:id="_YrpekczaEeuS_-RlxiJ9Hw" name="" type="_Yp3V4czaEeuS_-RlxiJ9Hw" association="_YrpekMzaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_YrqFoczaEeuS_-RlxiJ9Hw" name="" memberEnd="_YrqFoszaEeuS_-RlxiJ9Hw _Yriw4szaEeuS_-RlxiJ9Hw">
+                  <ownedEnd xmi:id="_YrqFoszaEeuS_-RlxiJ9Hw" name="" type="_Yp3V4czaEeuS_-RlxiJ9Hw" association="_YrqFoczaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_YphXoMzaEeuS_-RlxiJ9Hw" name="good">
+                <packagedElement xmi:type="uml:Class" xmi:id="_Yp4kBMzaEeuS_-RlxiJ9Hw" name="Cab">
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Yrl0OczaEeuS_-RlxiJ9Hw" name="Cab" specification="_Yp5LEMzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_Yrl0OszaEeuS_-RlxiJ9Hw" type="_Yp4kBMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>System.out.println(&quot;I'm a Basic Cab&quot;);
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_Yp5LEMzaEeuS_-RlxiJ9Hw" name="Cab" method="_Yrl0OczaEeuS_-RlxiJ9Hw">
+                    <eAnnotations xmi:id="_Yp5LEczaEeuS_-RlxiJ9Hw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Yp5LEszaEeuS_-RlxiJ9Hw" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_Yp5LE8zaEeuS_-RlxiJ9Hw" type="_Yp4kBMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Yp5LFMzaEeuS_-RlxiJ9Hw" name="Driver">
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Yrl0O8zaEeuS_-RlxiJ9Hw" name="Driver" specification="_Yp5LFczaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_Yrl0PMzaEeuS_-RlxiJ9Hw" type="_Yp5LFMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>System.out.println(&quot;I'm a Basic Driver&quot;);
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_Yp5LFczaEeuS_-RlxiJ9Hw" name="Driver" method="_Yrl0O8zaEeuS_-RlxiJ9Hw">
+                    <eAnnotations xmi:id="_Yp5yIMzaEeuS_-RlxiJ9Hw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Yp5yIczaEeuS_-RlxiJ9Hw" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_Yp5yIszaEeuS_-RlxiJ9Hw" type="_Yp5LFMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Yp5yI8zaEeuS_-RlxiJ9Hw" name="MiniCab">
+                  <generalization xmi:id="_YrcDMMzaEeuS_-RlxiJ9Hw" general="_Yp4kBMzaEeuS_-RlxiJ9Hw"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Yrl0PczaEeuS_-RlxiJ9Hw" name="MiniCab" specification="_Yp5yJMzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_Yrl0PszaEeuS_-RlxiJ9Hw" type="_Yp5yI8zaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>System.out.println(&quot;I'm a Mini Cab&quot;);
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_Yp5yJMzaEeuS_-RlxiJ9Hw" name="MiniCab" method="_Yrl0PczaEeuS_-RlxiJ9Hw">
+                    <eAnnotations xmi:id="_Yp5yJczaEeuS_-RlxiJ9Hw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Yp5yJszaEeuS_-RlxiJ9Hw" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_Yp5yJ8zaEeuS_-RlxiJ9Hw" type="_Yp5yI8zaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Yp5yKMzaEeuS_-RlxiJ9Hw" name="MiniDriver">
+                  <generalization xmi:id="_YrcDMczaEeuS_-RlxiJ9Hw" general="_Yp5LFMzaEeuS_-RlxiJ9Hw"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Yrl0P8zaEeuS_-RlxiJ9Hw" name="MiniDriver" specification="_Yp6ZMMzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_Yrl0QMzaEeuS_-RlxiJ9Hw" type="_Yp5yKMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>System.out.println(&quot;I'm a Mini Driver&quot;);
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_Yp6ZMMzaEeuS_-RlxiJ9Hw" name="MiniDriver" method="_Yrl0P8zaEeuS_-RlxiJ9Hw">
+                    <eAnnotations xmi:id="_Yp6ZMczaEeuS_-RlxiJ9Hw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Yp6ZMszaEeuS_-RlxiJ9Hw" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_Yp6ZM8zaEeuS_-RlxiJ9Hw" type="_Yp5yKMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Yp6ZNMzaEeuS_-RlxiJ9Hw" name="MiniFactory">
+                  <generalization xmi:id="_YrcqSMzaEeuS_-RlxiJ9Hw" general="_YqDjJMzaEeuS_-RlxiJ9Hw"/>
+                  <ownedAttribute xmi:id="_Yriw5MzaEeuS_-RlxiJ9Hw" name="tripType" visibility="private" type="_YqExQMzaEeuS_-RlxiJ9Hw"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrmbQMzaEeuS_-RlxiJ9Hw" name="MiniFactory" specification="_YrcqQMzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrmbQczaEeuS_-RlxiJ9Hw" name="tripType" type="_YqExQMzaEeuS_-RlxiJ9Hw"/>
+                    <ownedParameter xmi:id="_YrmbQszaEeuS_-RlxiJ9Hw" type="_Yp6ZNMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>this.tripType = tripType;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrmbQ8zaEeuS_-RlxiJ9Hw" name="getTrip" specification="_Yp7AQMzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrmbRMzaEeuS_-RlxiJ9Hw" type="_YqCVA8zaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>return new Trip(getCab(), getDriver());
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrmbRczaEeuS_-RlxiJ9Hw" name="getDriver" specification="_Yp8OYczaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrmbRszaEeuS_-RlxiJ9Hw" type="_Yp5LFMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>switch(this.tripType) {
+         case MINI:
+             return new MiniDriver();
+         case MINI_MICRO:
+             return new MiniMicroDriver();
+         default:
+             break;
+     }
+     return null;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrmbR8zaEeuS_-RlxiJ9Hw" name="getCab" specification="_Yp8OZczaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrmbSMzaEeuS_-RlxiJ9Hw" type="_Yp4kBMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>switch(this.tripType) {
+         case MINI:
+             return new MiniCab();
+         case MINI_MICRO:
+             return new MiniMicroCab();
+         default:
+             break;
+     }
+     return null;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_Yp7AQMzaEeuS_-RlxiJ9Hw" name="getTrip" method="_YrmbQ8zaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrcqRczaEeuS_-RlxiJ9Hw" type="_YqCVA8zaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_Yp8OYczaEeuS_-RlxiJ9Hw" name="getDriver" method="_YrmbRczaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrcqRszaEeuS_-RlxiJ9Hw" type="_Yp5LFMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_Yp8OZczaEeuS_-RlxiJ9Hw" name="getCab" method="_YrmbR8zaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrcqR8zaEeuS_-RlxiJ9Hw" type="_Yp4kBMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_YrcqQMzaEeuS_-RlxiJ9Hw" name="MiniFactory" method="_YrmbQMzaEeuS_-RlxiJ9Hw">
+                    <eAnnotations xmi:id="_YrcqQszaEeuS_-RlxiJ9Hw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_YrcqQ8zaEeuS_-RlxiJ9Hw" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_YrcqQczaEeuS_-RlxiJ9Hw" name="tripType" type="_YqExQMzaEeuS_-RlxiJ9Hw"/>
+                    <ownedParameter xmi:id="_YrcqRMzaEeuS_-RlxiJ9Hw" type="_Yp6ZNMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Yp9cgMzaEeuS_-RlxiJ9Hw" name="MiniMicroCab">
+                  <generalization xmi:id="_YrdRUMzaEeuS_-RlxiJ9Hw" general="_Yp5yI8zaEeuS_-RlxiJ9Hw"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrmbSczaEeuS_-RlxiJ9Hw" name="MiniMicroCab" specification="_Yp-DkMzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrmbSszaEeuS_-RlxiJ9Hw" type="_Yp9cgMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>System.out.println(&quot;I'm a Mini Micro Cab&quot;);
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_Yp-DkMzaEeuS_-RlxiJ9Hw" name="MiniMicroCab" method="_YrmbSczaEeuS_-RlxiJ9Hw">
+                    <eAnnotations xmi:id="_Yp-DkczaEeuS_-RlxiJ9Hw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Yp-DkszaEeuS_-RlxiJ9Hw" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_Yp-Dk8zaEeuS_-RlxiJ9Hw" type="_Yp9cgMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Yp-DlMzaEeuS_-RlxiJ9Hw" name="MiniMicroDriver">
+                  <generalization xmi:id="_YrdRUczaEeuS_-RlxiJ9Hw" general="_Yp5yKMzaEeuS_-RlxiJ9Hw"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrmbS8zaEeuS_-RlxiJ9Hw" name="MiniMicroDriver" specification="_Yp-qoMzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrmbTMzaEeuS_-RlxiJ9Hw" type="_Yp-DlMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>System.out.println(&quot;I'm a Mini Micro Driver&quot;);
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_Yp-qoMzaEeuS_-RlxiJ9Hw" name="MiniMicroDriver" method="_YrmbS8zaEeuS_-RlxiJ9Hw">
+                    <eAnnotations xmi:id="_Yp-qoczaEeuS_-RlxiJ9Hw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Yp-qoszaEeuS_-RlxiJ9Hw" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_Yp-qo8zaEeuS_-RlxiJ9Hw" type="_Yp-DlMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Yp-qpMzaEeuS_-RlxiJ9Hw" name="SedanCab">
+                  <generalization xmi:id="_YrdRUszaEeuS_-RlxiJ9Hw" general="_Yp4kBMzaEeuS_-RlxiJ9Hw"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrmbTczaEeuS_-RlxiJ9Hw" name="SedanCab" specification="_Yp-qpczaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrmbTszaEeuS_-RlxiJ9Hw" type="_Yp-qpMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>System.out.println(&quot;I'm a Sedan Cab&quot;);
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_Yp-qpczaEeuS_-RlxiJ9Hw" name="SedanCab" method="_YrmbTczaEeuS_-RlxiJ9Hw">
+                    <eAnnotations xmi:id="_Yp-qpszaEeuS_-RlxiJ9Hw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Yp-qp8zaEeuS_-RlxiJ9Hw" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_Yp-qqMzaEeuS_-RlxiJ9Hw" type="_Yp-qpMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Yp_RsMzaEeuS_-RlxiJ9Hw" name="SedanDriver">
+                  <generalization xmi:id="_YrdRU8zaEeuS_-RlxiJ9Hw" general="_Yp5LFMzaEeuS_-RlxiJ9Hw"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrmbT8zaEeuS_-RlxiJ9Hw" name="SedanDriver" specification="_Yp_RsczaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrmbUMzaEeuS_-RlxiJ9Hw" type="_Yp_RsMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>System.out.println(&quot;I'm a Sedan Driver&quot;);
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_Yp_RsczaEeuS_-RlxiJ9Hw" name="SedanDriver" method="_YrmbT8zaEeuS_-RlxiJ9Hw">
+                    <eAnnotations xmi:id="_Yp_RsszaEeuS_-RlxiJ9Hw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Yp_Rs8zaEeuS_-RlxiJ9Hw" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_Yp_RtMzaEeuS_-RlxiJ9Hw" type="_Yp_RsMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Yp_RtczaEeuS_-RlxiJ9Hw" name="SedanFactory">
+                  <generalization xmi:id="_Yrd4aMzaEeuS_-RlxiJ9Hw" general="_YqDjJMzaEeuS_-RlxiJ9Hw"/>
+                  <ownedAttribute xmi:id="_YrjX8czaEeuS_-RlxiJ9Hw" name="tripType" visibility="private" type="_YqExQMzaEeuS_-RlxiJ9Hw"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrmbUczaEeuS_-RlxiJ9Hw" name="SedanFactory" specification="_Yrd4YMzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrmbUszaEeuS_-RlxiJ9Hw" name="tripType" type="_YqExQMzaEeuS_-RlxiJ9Hw"/>
+                    <ownedParameter xmi:id="_YrmbU8zaEeuS_-RlxiJ9Hw" type="_Yp_RtczaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>this.tripType = tripType;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrmbVMzaEeuS_-RlxiJ9Hw" name="getTrip" specification="_Yp_4wMzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrmbVczaEeuS_-RlxiJ9Hw" type="_YqCVA8zaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>return new Trip(getCab(), getDriver());
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrnCUMzaEeuS_-RlxiJ9Hw" name="getDriver" specification="_YqAf0MzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrnCUczaEeuS_-RlxiJ9Hw" type="_Yp5LFMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>switch(this.tripType) {
+         case SEDAN:
+             return new SedanDriver();
+         case SEDAN_PLAY:
+             return new SedanPlayDriver();
+         default:
+             break;
+     }
+     return null;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrnCUszaEeuS_-RlxiJ9Hw" name="getCab" specification="_YqAf1MzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrnCU8zaEeuS_-RlxiJ9Hw" type="_Yp4kBMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>switch(this.tripType) {
+         case SEDAN:
+             return new SedanCab();
+         case SEDAN_PLAY:
+             return new SedanPlayCab();
+         default:
+             break;
+     }
+     return null;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_Yp_4wMzaEeuS_-RlxiJ9Hw" name="getTrip" method="_YrmbVMzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_Yrd4ZczaEeuS_-RlxiJ9Hw" type="_YqCVA8zaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_YqAf0MzaEeuS_-RlxiJ9Hw" name="getDriver" method="_YrnCUMzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_Yrd4ZszaEeuS_-RlxiJ9Hw" type="_Yp5LFMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_YqAf1MzaEeuS_-RlxiJ9Hw" name="getCab" method="_YrnCUszaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_Yrd4Z8zaEeuS_-RlxiJ9Hw" type="_Yp4kBMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_Yrd4YMzaEeuS_-RlxiJ9Hw" name="SedanFactory" method="_YrmbUczaEeuS_-RlxiJ9Hw">
+                    <eAnnotations xmi:id="_Yrd4YszaEeuS_-RlxiJ9Hw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Yrd4Y8zaEeuS_-RlxiJ9Hw" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_Yrd4YczaEeuS_-RlxiJ9Hw" name="tripType" type="_YqExQMzaEeuS_-RlxiJ9Hw"/>
+                    <ownedParameter xmi:id="_Yrd4ZMzaEeuS_-RlxiJ9Hw" type="_Yp_RtczaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqBG4MzaEeuS_-RlxiJ9Hw" name="SedanPlayCab">
+                  <generalization xmi:id="_Yrd4aczaEeuS_-RlxiJ9Hw" general="_Yp-qpMzaEeuS_-RlxiJ9Hw"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrnCVMzaEeuS_-RlxiJ9Hw" name="SedanPlayCab" specification="_YqBt8MzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrnCVczaEeuS_-RlxiJ9Hw" type="_YqBG4MzaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>System.out.println(&quot;I'm a Sedan Play Cab&quot;);
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_YqBt8MzaEeuS_-RlxiJ9Hw" name="SedanPlayCab" method="_YrnCVMzaEeuS_-RlxiJ9Hw">
+                    <eAnnotations xmi:id="_YqBt8czaEeuS_-RlxiJ9Hw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_YqBt8szaEeuS_-RlxiJ9Hw" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_YqBt88zaEeuS_-RlxiJ9Hw" type="_YqBG4MzaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqBt9MzaEeuS_-RlxiJ9Hw" name="SedanPlayDriver">
+                  <generalization xmi:id="_YrefcMzaEeuS_-RlxiJ9Hw" general="_Yp_RsMzaEeuS_-RlxiJ9Hw"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrnCVszaEeuS_-RlxiJ9Hw" name="SedanPlayDriver" specification="_YqBt9czaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrnCV8zaEeuS_-RlxiJ9Hw" type="_YqBt9MzaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>System.out.println(&quot;I'm a Sedan Play Driver&quot;);
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_YqBt9czaEeuS_-RlxiJ9Hw" name="SedanPlayDriver" method="_YrnCVszaEeuS_-RlxiJ9Hw">
+                    <eAnnotations xmi:id="_YqCVAMzaEeuS_-RlxiJ9Hw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_YqCVAczaEeuS_-RlxiJ9Hw" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_YqCVAszaEeuS_-RlxiJ9Hw" type="_YqBt9MzaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqCVA8zaEeuS_-RlxiJ9Hw" name="Trip">
+                  <ownedAttribute xmi:id="_YrjX88zaEeuS_-RlxiJ9Hw" name="cab" visibility="private" type="_Yp4kBMzaEeuS_-RlxiJ9Hw" association="_YrqFpMzaEeuS_-RlxiJ9Hw"/>
+                  <ownedAttribute xmi:id="_Yrj_AczaEeuS_-RlxiJ9Hw" name="driver" visibility="private" type="_Yp5LFMzaEeuS_-RlxiJ9Hw" association="_YrqssczaEeuS_-RlxiJ9Hw"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrnCWMzaEeuS_-RlxiJ9Hw" name="Trip" specification="_YrefcczaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrnCWczaEeuS_-RlxiJ9Hw" name="cab" type="_Yp4kBMzaEeuS_-RlxiJ9Hw"/>
+                    <ownedParameter xmi:id="_YrnCWszaEeuS_-RlxiJ9Hw" name="driver" type="_Yp5LFMzaEeuS_-RlxiJ9Hw"/>
+                    <ownedParameter xmi:id="_YrnCW8zaEeuS_-RlxiJ9Hw" type="_YqCVA8zaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>this.cab = cab;
+     this.driver = driver;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrnCXMzaEeuS_-RlxiJ9Hw" name="startTrip" specification="_YqC8EMzaEeuS_-RlxiJ9Hw">
+                    <language>java</language>
+                    <body>System.out.println(&quot;Starting the Trip&quot;);
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrnCXczaEeuS_-RlxiJ9Hw" name="endTrip" specification="_YqC8EczaEeuS_-RlxiJ9Hw">
+                    <language>java</language>
+                    <body>System.out.println(&quot;Ending the Trip&quot;);
+     System.out.println(&quot;Thank you for Using our Taxi Service&quot;);
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_YqC8EMzaEeuS_-RlxiJ9Hw" name="startTrip" method="_YrnCXMzaEeuS_-RlxiJ9Hw"/>
+                  <ownedOperation xmi:id="_YqC8EczaEeuS_-RlxiJ9Hw" name="endTrip" method="_YrnCXczaEeuS_-RlxiJ9Hw"/>
+                  <ownedOperation xmi:id="_YrefcczaEeuS_-RlxiJ9Hw" name="Trip" method="_YrnCWMzaEeuS_-RlxiJ9Hw">
+                    <eAnnotations xmi:id="_YrefdMzaEeuS_-RlxiJ9Hw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_YrefdczaEeuS_-RlxiJ9Hw" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_YrefcszaEeuS_-RlxiJ9Hw" name="cab" type="_Yp4kBMzaEeuS_-RlxiJ9Hw"/>
+                    <ownedParameter xmi:id="_Yrefc8zaEeuS_-RlxiJ9Hw" name="driver" type="_Yp5LFMzaEeuS_-RlxiJ9Hw"/>
+                    <ownedParameter xmi:id="_YrefdszaEeuS_-RlxiJ9Hw" type="_YqCVA8zaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqDjIMzaEeuS_-RlxiJ9Hw" name="TripDemo">
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrnCXszaEeuS_-RlxiJ9Hw" name="main" specification="_YqDjIczaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrnCX8zaEeuS_-RlxiJ9Hw" name="args">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YrnCYMzaEeuS_-RlxiJ9Hw" value="*"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>TripFactory tripFactory = TripFactory.getTripFactory(TripType.MINI);
+
+     Trip trip = tripFactory.getTrip();
+
+     System.out.println(trip.getClass());
+
+     tripFactory = TripFactory.getTripFactory(TripType.SEDAN_PLAY);
+
+     trip = tripFactory.getTrip();
+
+     System.out.println(trip.getClass());
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_YqDjIczaEeuS_-RlxiJ9Hw" name="main" isStatic="true" method="_YrnCXszaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YqDjIszaEeuS_-RlxiJ9Hw" name="args">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YqDjI8zaEeuS_-RlxiJ9Hw" value="*"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqDjJMzaEeuS_-RlxiJ9Hw" name="TripFactory" isAbstract="true">
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrnCYczaEeuS_-RlxiJ9Hw" name="getTripFactory" specification="_Yrefd8zaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrnCYszaEeuS_-RlxiJ9Hw" name="tripType" type="_YqExQMzaEeuS_-RlxiJ9Hw"/>
+                    <ownedParameter xmi:id="_YrnCY8zaEeuS_-RlxiJ9Hw" type="_YqDjJMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>if (tripType == TripType.MINI || tripType == TripType.MINI_MICRO) {
+         return new MiniFactory(tripType);
+     } else {
+         return new SedanFactory(tripType);
+     }
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_YqDjJczaEeuS_-RlxiJ9Hw" name="getTrip" isAbstract="true">
+                    <ownedParameter xmi:id="_YrfGgszaEeuS_-RlxiJ9Hw" type="_YqCVA8zaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_YqEKMMzaEeuS_-RlxiJ9Hw" name="getDriver" isAbstract="true">
+                    <ownedParameter xmi:id="_YrfGg8zaEeuS_-RlxiJ9Hw" type="_Yp5LFMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_YqEKMczaEeuS_-RlxiJ9Hw" name="getCab" isAbstract="true">
+                    <ownedParameter xmi:id="_YrfGhMzaEeuS_-RlxiJ9Hw" type="_Yp4kBMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_Yrefd8zaEeuS_-RlxiJ9Hw" name="getTripFactory" isStatic="true" method="_YrnCYczaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrfGgMzaEeuS_-RlxiJ9Hw" name="tripType" type="_YqExQMzaEeuS_-RlxiJ9Hw"/>
+                    <ownedParameter xmi:id="_YrfGgczaEeuS_-RlxiJ9Hw" type="_YqDjJMzaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Enumeration" xmi:id="_YqExQMzaEeuS_-RlxiJ9Hw" name="TripType">
+                  <ownedLiteral xmi:id="_YqExQszaEeuS_-RlxiJ9Hw" name="MINI"/>
+                  <ownedLiteral xmi:id="_YqExQ8zaEeuS_-RlxiJ9Hw" name="MINI_MICRO"/>
+                  <ownedLiteral xmi:id="_YqExRMzaEeuS_-RlxiJ9Hw" name="SEDAN"/>
+                  <ownedLiteral xmi:id="_YqExRczaEeuS_-RlxiJ9Hw" name="SEDAN_PLAY"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_YrqFpMzaEeuS_-RlxiJ9Hw" name="" memberEnd="_YrqFpczaEeuS_-RlxiJ9Hw _YrjX88zaEeuS_-RlxiJ9Hw">
+                  <ownedEnd xmi:id="_YrqFpczaEeuS_-RlxiJ9Hw" name="" type="_YqCVA8zaEeuS_-RlxiJ9Hw" association="_YrqFpMzaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_YrqssczaEeuS_-RlxiJ9Hw" name="" memberEnd="_YrqssszaEeuS_-RlxiJ9Hw _Yrj_AczaEeuS_-RlxiJ9Hw">
+                  <ownedEnd xmi:id="_YrqssszaEeuS_-RlxiJ9Hw" name="" type="_YqCVA8zaEeuS_-RlxiJ9Hw" association="_YrqssczaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Ypm3MMzaEeuS_-RlxiJ9Hw" name="factory">
+              <packagedElement xmi:type="uml:Package" xmi:id="_Ypm3MczaEeuS_-RlxiJ9Hw" name="good">
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqIboMzaEeuS_-RlxiJ9Hw" name="AboutPage">
+                  <generalization xmi:id="_YrgUoczaEeuS_-RlxiJ9Hw" general="_YqMGAszaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqJCsMzaEeuS_-RlxiJ9Hw" name="Blog">
+                  <generalization xmi:id="_YrgUoszaEeuS_-RlxiJ9Hw" general="_YqMtEczaEeuS_-RlxiJ9Hw"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrnpYszaEeuS_-RlxiJ9Hw" name="createWebsite" specification="_YqJCsczaEeuS_-RlxiJ9Hw">
+                    <language>java</language>
+                    <body>pages.add(new PostPage());
+     pages.add(new AboutPage());
+     pages.add(new CommentPage());
+     pages.add(new ContactPage());
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_YqJCsczaEeuS_-RlxiJ9Hw" name="createWebsite" method="_YrnpYszaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqJpwszaEeuS_-RlxiJ9Hw" name="CartPage">
+                  <generalization xmi:id="_YrgUo8zaEeuS_-RlxiJ9Hw" general="_YqMGAszaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqJpw8zaEeuS_-RlxiJ9Hw" name="CommentPage">
+                  <generalization xmi:id="_YrgUpMzaEeuS_-RlxiJ9Hw" general="_YqMGAszaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqKQ0MzaEeuS_-RlxiJ9Hw" name="ContactPage">
+                  <generalization xmi:id="_Yrg7sMzaEeuS_-RlxiJ9Hw" general="_YqMGAszaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqKQ0czaEeuS_-RlxiJ9Hw" name="ECommerce">
+                  <generalization xmi:id="_Yrg7sczaEeuS_-RlxiJ9Hw" general="_YqMtEczaEeuS_-RlxiJ9Hw"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrnpY8zaEeuS_-RlxiJ9Hw" name="createWebsite" specification="_YqKQ0szaEeuS_-RlxiJ9Hw">
+                    <language>java</language>
+                    <body>pages.add(new CartPage());
+     pages.add(new HomePage());
+     pages.add(new SearchPage());
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_YqKQ0szaEeuS_-RlxiJ9Hw" name="createWebsite" method="_YrnpY8zaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqK348zaEeuS_-RlxiJ9Hw" name="FactoryDemo">
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrnpZMzaEeuS_-RlxiJ9Hw" name="main" specification="_YqK35MzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrnpZczaEeuS_-RlxiJ9Hw" name="args">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YrnpZszaEeuS_-RlxiJ9Hw" value="*"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>Website site = WebsiteFactory.getWebsite(&quot;ECommerce&quot;);
+
+     System.out.println(site.getPages());
+
+     site = WebsiteFactory.getWebsite(&quot;Blog&quot;);
+
+     System.out.println(site.getPages());
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_YqK35MzaEeuS_-RlxiJ9Hw" name="main" isStatic="true" method="_YrnpZMzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YqK35czaEeuS_-RlxiJ9Hw" name="args">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YqK35szaEeuS_-RlxiJ9Hw" value="*"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqLe8MzaEeuS_-RlxiJ9Hw" name="FactoryEverydayDemo">
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrnpZ8zaEeuS_-RlxiJ9Hw" name="main" specification="_YqLe8czaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrnpaMzaEeuS_-RlxiJ9Hw" name="args">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YrnpaczaEeuS_-RlxiJ9Hw" value="*"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>Calendar cal = Calendar.getInstance();
+     //Calendar cal = Calendar.get
+
+     System.out.println(cal);
+
+     System.out.println(cal.get(Calendar.DAY_OF_MONTH));
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_YqLe8czaEeuS_-RlxiJ9Hw" name="main" isStatic="true" method="_YrnpZ8zaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YqLe8szaEeuS_-RlxiJ9Hw" name="args">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YqLe9MzaEeuS_-RlxiJ9Hw" value="*"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqMGAczaEeuS_-RlxiJ9Hw" name="HomePage">
+                  <generalization xmi:id="_Yrg7tMzaEeuS_-RlxiJ9Hw" general="_YqMGAszaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqMGAszaEeuS_-RlxiJ9Hw" name="Page" isAbstract="true"/>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqMGA8zaEeuS_-RlxiJ9Hw" name="PostPage">
+                  <generalization xmi:id="_Yrg7tczaEeuS_-RlxiJ9Hw" general="_YqMGAszaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqMtEMzaEeuS_-RlxiJ9Hw" name="SearchPage">
+                  <generalization xmi:id="_Yrg7tszaEeuS_-RlxiJ9Hw" general="_YqMGAszaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqMtEczaEeuS_-RlxiJ9Hw" name="Website" isAbstract="true">
+                  <ownedAttribute xmi:id="_YrkmE8zaEeuS_-RlxiJ9Hw" name="pages" visibility="protected" type="_YqMGAszaEeuS_-RlxiJ9Hw" isOrdered="true" association="_YrrTwczaEeuS_-RlxiJ9Hw">
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YrlNIMzaEeuS_-RlxiJ9Hw" value="*"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_YrlNIczaEeuS_-RlxiJ9Hw" value="new ArrayList&lt;>()"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrnpaszaEeuS_-RlxiJ9Hw" name="Website" specification="_YqNUIMzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_Yrnpa8zaEeuS_-RlxiJ9Hw" type="_YqMtEczaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>this.createWebsite();
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrnpbMzaEeuS_-RlxiJ9Hw" name="getPages" specification="_YqNUJMzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrnpbczaEeuS_-RlxiJ9Hw" type="_YqMGAszaEeuS_-RlxiJ9Hw" isOrdered="true" direction="return">
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YrnpbszaEeuS_-RlxiJ9Hw" value="*"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return pages;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_YqNUIMzaEeuS_-RlxiJ9Hw" name="Website" method="_YrnpaszaEeuS_-RlxiJ9Hw">
+                    <eAnnotations xmi:id="_YqNUIczaEeuS_-RlxiJ9Hw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_YqNUIszaEeuS_-RlxiJ9Hw" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_YqNUI8zaEeuS_-RlxiJ9Hw" type="_YqMtEczaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_YqNUJMzaEeuS_-RlxiJ9Hw" name="getPages" method="_YrnpbMzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YqNUJczaEeuS_-RlxiJ9Hw" type="_YqMGAszaEeuS_-RlxiJ9Hw" isOrdered="true" direction="return">
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YqNUJszaEeuS_-RlxiJ9Hw" value="*"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_YqNUJ8zaEeuS_-RlxiJ9Hw" name="createWebsite" isAbstract="true"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqN7MMzaEeuS_-RlxiJ9Hw" name="WebsiteFactory">
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Yrnpb8zaEeuS_-RlxiJ9Hw" name="getWebsite" specification="_YqN7MczaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrnpcMzaEeuS_-RlxiJ9Hw" name="type">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YrnpcczaEeuS_-RlxiJ9Hw" type="_YqMtEczaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>switch (type) {
+         case &quot;Blog&quot;: {
+             return new Blog();
+         }
+
+         case &quot;ECommerce&quot;: {
+             return new ECommerce();
+         }
+
+         default: {
+             return null;
+         }
+     }
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_YqN7MczaEeuS_-RlxiJ9Hw" name="getWebsite" isStatic="true" method="_Yrnpb8zaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YqN7MszaEeuS_-RlxiJ9Hw" name="type">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YrhiwMzaEeuS_-RlxiJ9Hw" type="_YqMtEczaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_YrrTwczaEeuS_-RlxiJ9Hw" name="" memberEnd="_YrrTwszaEeuS_-RlxiJ9Hw _YrkmE8zaEeuS_-RlxiJ9Hw">
+                  <ownedEnd xmi:id="_YrrTwszaEeuS_-RlxiJ9Hw" name="" type="_YqMtEczaEeuS_-RlxiJ9Hw" association="_YrrTwczaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_Ypm3MszaEeuS_-RlxiJ9Hw" name="bad">
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqFYUMzaEeuS_-RlxiJ9Hw" name="AboutPage">
+                  <generalization xmi:id="_YrfGhczaEeuS_-RlxiJ9Hw" general="_YqMGAszaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqFYUczaEeuS_-RlxiJ9Hw" name="CartPage">
+                  <generalization xmi:id="_YrfGhszaEeuS_-RlxiJ9Hw" general="_YqMGAszaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqFYUszaEeuS_-RlxiJ9Hw" name="CommentPage">
+                  <generalization xmi:id="_YrfGh8zaEeuS_-RlxiJ9Hw" general="_YqMGAszaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqF_YMzaEeuS_-RlxiJ9Hw" name="ContactPage">
+                  <generalization xmi:id="_YrfGiMzaEeuS_-RlxiJ9Hw" general="_YqMGAszaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqF_YczaEeuS_-RlxiJ9Hw" name="FactoryBadDemo">
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrnCZMzaEeuS_-RlxiJ9Hw" name="main" specification="_YqF_YszaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrnCZczaEeuS_-RlxiJ9Hw" name="args">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YrnCZszaEeuS_-RlxiJ9Hw" value="*"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>Website site = new Website(&quot;ECommerce&quot;);
+
+     System.out.println(site.getPages());
+
+     site = new Website(&quot;Blog&quot;);
+
+     System.out.println(site.getPages());
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_YqF_YszaEeuS_-RlxiJ9Hw" name="main" isStatic="true" method="_YrnCZMzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YqF_Y8zaEeuS_-RlxiJ9Hw" name="args">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YqGmcMzaEeuS_-RlxiJ9Hw" value="*"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqGmcczaEeuS_-RlxiJ9Hw" name="HomePage">
+                  <generalization xmi:id="_YrfGiczaEeuS_-RlxiJ9Hw" general="_YqMGAszaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqGmcszaEeuS_-RlxiJ9Hw" name="SearchPage">
+                  <generalization xmi:id="_YrfGiszaEeuS_-RlxiJ9Hw" general="_YqMGAszaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_YqGmc8zaEeuS_-RlxiJ9Hw" name="Website">
+                  <ownedAttribute xmi:id="_Yrj_A8zaEeuS_-RlxiJ9Hw" name="pages" visibility="protected" type="_YqMGAszaEeuS_-RlxiJ9Hw" isOrdered="true" association="_YrqstMzaEeuS_-RlxiJ9Hw">
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YrkmEMzaEeuS_-RlxiJ9Hw" value="*"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_YrkmEczaEeuS_-RlxiJ9Hw" value="new ArrayList&lt;>()"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrnCZ8zaEeuS_-RlxiJ9Hw" name="Website" specification="_YqH0kMzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrnCaMzaEeuS_-RlxiJ9Hw" name="type">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YrnCaczaEeuS_-RlxiJ9Hw" type="_YqGmc8zaEeuS_-RlxiJ9Hw" direction="return"/>
+                    <language>java</language>
+                    <body>this.createWebsite(type);
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrnCaszaEeuS_-RlxiJ9Hw" name="getPages" specification="_YqH0lczaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrnCa8zaEeuS_-RlxiJ9Hw" type="_YqMGAszaEeuS_-RlxiJ9Hw" isOrdered="true" direction="return">
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YrnCbMzaEeuS_-RlxiJ9Hw" value="*"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return pages;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YrnpYMzaEeuS_-RlxiJ9Hw" name="createWebsite" specification="_YqH0mMzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YrnpYczaEeuS_-RlxiJ9Hw" name="type">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>if(type == &quot;Blog&quot;) {
+         pages.add(new AboutPage());
+         pages.add(new CommentPage());
+         pages.add(new ContactPage());
+     } else {
+         pages.add(new HomePage());
+         pages.add(new CartPage());
+         pages.add(new SearchPage());
+     }
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_YqH0kMzaEeuS_-RlxiJ9Hw" name="Website" method="_YrnCZ8zaEeuS_-RlxiJ9Hw">
+                    <eAnnotations xmi:id="_YqH0kszaEeuS_-RlxiJ9Hw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_YqH0k8zaEeuS_-RlxiJ9Hw" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_YqH0kczaEeuS_-RlxiJ9Hw" name="type">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_YqH0lMzaEeuS_-RlxiJ9Hw" type="_YqGmc8zaEeuS_-RlxiJ9Hw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_YqH0lczaEeuS_-RlxiJ9Hw" name="getPages" method="_YrnCaszaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YqH0lszaEeuS_-RlxiJ9Hw" type="_YqMGAszaEeuS_-RlxiJ9Hw" isOrdered="true" direction="return">
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YqH0l8zaEeuS_-RlxiJ9Hw" value="*"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_YqH0mMzaEeuS_-RlxiJ9Hw" name="createWebsite" method="_YrnpYMzaEeuS_-RlxiJ9Hw">
+                    <ownedParameter xmi:id="_YqH0mczaEeuS_-RlxiJ9Hw" name="type">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_YrqstMzaEeuS_-RlxiJ9Hw" name="" memberEnd="_YrqstczaEeuS_-RlxiJ9Hw _Yrj_A8zaEeuS_-RlxiJ9Hw">
+                  <ownedEnd xmi:id="_YrqstczaEeuS_-RlxiJ9Hw" name="" type="_YqGmc8zaEeuS_-RlxiJ9Hw" association="_YrqstMzaEeuS_-RlxiJ9Hw"/>
+                </packagedElement>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_YpoFUMzaEeuS_-RlxiJ9Hw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_YpoFUczaEeuS_-RlxiJ9Hw" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_YrftkMzaEeuS_-RlxiJ9Hw" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_YrftkszaEeuS_-RlxiJ9Hw" name="List"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_Yrg7sszaEeuS_-RlxiJ9Hw" name="Calendar"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_YkH6QMzaEeuS_-RlxiJ9Hw">
+      <eAnnotations xmi:id="_YkH6QczaEeuS_-RlxiJ9Hw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_YkJIYMzaEeuS_-RlxiJ9Hw" base_Package="_YiuMEMzaEeuS_-RlxiJ9Hw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yp7nUMzaEeuS_-RlxiJ9Hw" base_Element="_Yp7AQMzaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:Annotations xmi:id="_Yp7nUczaEeuS_-RlxiJ9Hw" base_Element="_Yp7AQMzaEeuS_-RlxiJ9Hw">
+    <annotations xmi:id="_Yp8OYMzaEeuS_-RlxiJ9Hw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yp8OYszaEeuS_-RlxiJ9Hw" base_Element="_Yp8OYczaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:Annotations xmi:id="_Yp8OY8zaEeuS_-RlxiJ9Hw" base_Element="_Yp8OYczaEeuS_-RlxiJ9Hw">
+    <annotations xmi:id="_Yp8OZMzaEeuS_-RlxiJ9Hw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yp81cMzaEeuS_-RlxiJ9Hw" base_Element="_Yp8OZczaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:Annotations xmi:id="_Yp81cczaEeuS_-RlxiJ9Hw" base_Element="_Yp8OZczaEeuS_-RlxiJ9Hw">
+    <annotations xmi:id="_Yp81cszaEeuS_-RlxiJ9Hw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yp_4wczaEeuS_-RlxiJ9Hw" base_Element="_Yp_4wMzaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:Annotations xmi:id="_Yp_4wszaEeuS_-RlxiJ9Hw" base_Element="_Yp_4wMzaEeuS_-RlxiJ9Hw">
+    <annotations xmi:id="_Yp_4w8zaEeuS_-RlxiJ9Hw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YqAf0czaEeuS_-RlxiJ9Hw" base_Element="_YqAf0MzaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:Annotations xmi:id="_YqAf0szaEeuS_-RlxiJ9Hw" base_Element="_YqAf0MzaEeuS_-RlxiJ9Hw">
+    <annotations xmi:id="_YqAf08zaEeuS_-RlxiJ9Hw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YqAf1czaEeuS_-RlxiJ9Hw" base_Element="_YqAf1MzaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:Annotations xmi:id="_YqAf1szaEeuS_-RlxiJ9Hw" base_Element="_YqAf1MzaEeuS_-RlxiJ9Hw">
+    <annotations xmi:id="_YqAf18zaEeuS_-RlxiJ9Hw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YqExQczaEeuS_-RlxiJ9Hw" base_Element="_YqExQMzaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YqJCsszaEeuS_-RlxiJ9Hw" base_Element="_YqJCsczaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:Annotations xmi:id="_YqJpwMzaEeuS_-RlxiJ9Hw" base_Element="_YqJCsczaEeuS_-RlxiJ9Hw">
+    <annotations xmi:id="_YqJpwczaEeuS_-RlxiJ9Hw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YqK34MzaEeuS_-RlxiJ9Hw" base_Element="_YqKQ0szaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:Annotations xmi:id="_YqK34czaEeuS_-RlxiJ9Hw" base_Element="_YqKQ0szaEeuS_-RlxiJ9Hw">
+    <annotations xmi:id="_YqK34szaEeuS_-RlxiJ9Hw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YqLe88zaEeuS_-RlxiJ9Hw" base_Element="_YqLe8czaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:Array xmi:id="_YqMGAMzaEeuS_-RlxiJ9Hw" base_Element="_YqLe8szaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:Reference xmi:id="_YrftkczaEeuS_-RlxiJ9Hw" base_Element="_YrftkMzaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:Reference xmi:id="_YrgUoMzaEeuS_-RlxiJ9Hw" base_Element="_YrftkszaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:Reference xmi:id="_Yrg7s8zaEeuS_-RlxiJ9Hw" base_Element="_Yrg7sszaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yriw4czaEeuS_-RlxiJ9Hw" base_Element="_Yriw4MzaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yriw48zaEeuS_-RlxiJ9Hw" base_Element="_Yriw4szaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YrjX8MzaEeuS_-RlxiJ9Hw" base_Element="_Yriw5MzaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YrjX8szaEeuS_-RlxiJ9Hw" base_Element="_YrjX8czaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yrj_AMzaEeuS_-RlxiJ9Hw" base_Element="_YrjX88zaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yrj_AszaEeuS_-RlxiJ9Hw" base_Element="_Yrj_AczaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YrkmEszaEeuS_-RlxiJ9Hw" base_Element="_Yrj_A8zaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YrlNIszaEeuS_-RlxiJ9Hw" base_Element="_YrkmE8zaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:Reference xmi:id="_YrqFoMzaEeuS_-RlxiJ9Hw" base_Element="_YrpekMzaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:Reference xmi:id="_YrqFo8zaEeuS_-RlxiJ9Hw" base_Element="_YrqFoczaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:Reference xmi:id="_YrqssMzaEeuS_-RlxiJ9Hw" base_Element="_YrqFpMzaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:Reference xmi:id="_Yrqss8zaEeuS_-RlxiJ9Hw" base_Element="_YrqssczaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:Reference xmi:id="_YrrTwMzaEeuS_-RlxiJ9Hw" base_Element="_YrqstMzaEeuS_-RlxiJ9Hw"/>
+  <UMLLabProfile:Reference xmi:id="_Yrr60MzaEeuS_-RlxiJ9Hw" base_Element="_YrrTwczaEeuS_-RlxiJ9Hw"/>
+</xmi:XMI>

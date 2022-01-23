@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_YwCPUMzaEeuS_-RlxiJ9Hw">
+  <modelElement href="abstract_factory_bad.uml#_Ypm3MszaEeuS_-RlxiJ9Hw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aZECoMzaEeuS_-RlxiJ9Hw" source="_aZECqczaEeuS_-RlxiJ9Hw">
+    <modelElement href="abstract_factory_bad.uml#_YrqstMzaEeuS_-RlxiJ9Hw"/>
+    <visualProperties xmi:id="_aZEpsMzaEeuS_-RlxiJ9Hw" position="210.0,210.0"/>
+    <stereotypes xmi:id="_aZECoczaEeuS_-RlxiJ9Hw" name="Reference">
+      <modelElement href="abstract_factory_bad.uml#_YrrTwMzaEeuS_-RlxiJ9Hw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_aZECoszaEeuS_-RlxiJ9Hw" text=""/>
+    <sourceRole xmi:id="_aZECo8zaEeuS_-RlxiJ9Hw" aggregationKind="NONE" name="">
+      <modelElement href="abstract_factory_bad.uml#_YrqstczaEeuS_-RlxiJ9Hw"/>
+      <visibility xmi:id="_aZECpMzaEeuS_-RlxiJ9Hw" label="+"/>
+      <cardinality xmi:id="_aZECpczaEeuS_-RlxiJ9Hw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aZECpszaEeuS_-RlxiJ9Hw" aggregationKind="NONE" name="pages" navigable="true">
+      <modelElement href="abstract_factory_bad.uml#_Yrj_A8zaEeuS_-RlxiJ9Hw"/>
+      <visibility xmi:id="_aZECp8zaEeuS_-RlxiJ9Hw" label="#"/>
+      <cardinality xmi:id="_aZECqMzaEeuS_-RlxiJ9Hw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aZDbkMzaEeuS_-RlxiJ9Hw" name="SearchPage">
+    <modelElement href="abstract_factory_bad.uml#_YqGmcszaEeuS_-RlxiJ9Hw"/>
+    <visualProperties xmi:id="_aZDbkczaEeuS_-RlxiJ9Hw" position="606.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aZDbkszaEeuS_-RlxiJ9Hw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aZC0gMzaEeuS_-RlxiJ9Hw" name="FactoryBadDemo">
+    <modelElement href="abstract_factory_bad.uml#_YqF_YczaEeuS_-RlxiJ9Hw"/>
+    <visualProperties xmi:id="_aZC0gczaEeuS_-RlxiJ9Hw" position="349.0,23.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_aZC0gszaEeuS_-RlxiJ9Hw" label="+"/>
+    <operations xmi:id="_aZC0g8zaEeuS_-RlxiJ9Hw" name="main" staticOperation="true">
+      <modelElement href="abstract_factory_bad.uml#_YqF_YszaEeuS_-RlxiJ9Hw"/>
+      <visibility xmi:id="_aZC0hMzaEeuS_-RlxiJ9Hw" label="+"/>
+      <cardinality xmi:id="_aZC0hczaEeuS_-RlxiJ9Hw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aZC0hszaEeuS_-RlxiJ9Hw" name="args">
+        <modelElement href="abstract_factory_bad.uml#_YqF_Y8zaEeuS_-RlxiJ9Hw"/>
+        <cardinality xmi:id="_aZC0h8zaEeuS_-RlxiJ9Hw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_aZC0iMzaEeuS_-RlxiJ9Hw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aZBmYMzaEeuS_-RlxiJ9Hw" name="AboutPage">
+    <modelElement href="abstract_factory_bad.uml#_YqFYUMzaEeuS_-RlxiJ9Hw"/>
+    <visualProperties xmi:id="_aZBmYczaEeuS_-RlxiJ9Hw" position="-34.0,411.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aZBmYszaEeuS_-RlxiJ9Hw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aZCNc8zaEeuS_-RlxiJ9Hw" name="CommentPage">
+    <modelElement href="abstract_factory_bad.uml#_YqFYUszaEeuS_-RlxiJ9Hw"/>
+    <visualProperties xmi:id="_aZCNdMzaEeuS_-RlxiJ9Hw" position="99.0,411.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aZCNdczaEeuS_-RlxiJ9Hw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aZCNcMzaEeuS_-RlxiJ9Hw" name="CartPage">
+    <modelElement href="abstract_factory_bad.uml#_YqFYUczaEeuS_-RlxiJ9Hw"/>
+    <visualProperties xmi:id="_aZCNcczaEeuS_-RlxiJ9Hw" position="-161.0,411.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aZCNcszaEeuS_-RlxiJ9Hw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aZCNdszaEeuS_-RlxiJ9Hw" name="ContactPage">
+    <modelElement href="abstract_factory_bad.uml#_YqF_YMzaEeuS_-RlxiJ9Hw"/>
+    <visualProperties xmi:id="_aZCNd8zaEeuS_-RlxiJ9Hw" position="-312.0,411.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aZCNeMzaEeuS_-RlxiJ9Hw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aZC0iczaEeuS_-RlxiJ9Hw" name="HomePage">
+    <modelElement href="abstract_factory_bad.uml#_YqGmcczaEeuS_-RlxiJ9Hw"/>
+    <visualProperties xmi:id="_aZC0iszaEeuS_-RlxiJ9Hw" position="-449.0,411.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aZC0i8zaEeuS_-RlxiJ9Hw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aZECqczaEeuS_-RlxiJ9Hw" name="Website" associationsOut="_aZECoMzaEeuS_-RlxiJ9Hw">
+    <modelElement href="abstract_factory_bad.uml#_YqGmc8zaEeuS_-RlxiJ9Hw"/>
+    <visualProperties xmi:id="_aZECqszaEeuS_-RlxiJ9Hw" position="-263.0,182.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aZECq8zaEeuS_-RlxiJ9Hw" label="+"/>
+    <attributes xmi:id="_aZECrMzaEeuS_-RlxiJ9Hw" defaultValue="new ArrayList&lt;>()" name="pages">
+      <modelElement href="abstract_factory_bad.uml#_Yrj_A8zaEeuS_-RlxiJ9Hw"/>
+      <stereotypes xmi:id="_aZECrczaEeuS_-RlxiJ9Hw" name="LegacyStyledElement">
+        <modelElement href="abstract_factory_bad.uml#_YrkmEszaEeuS_-RlxiJ9Hw"/>
+      </stereotypes>
+      <visibility xmi:id="_aZECrszaEeuS_-RlxiJ9Hw" label="#"/>
+      <cardinality xmi:id="_aZECr8zaEeuS_-RlxiJ9Hw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_aZECsMzaEeuS_-RlxiJ9Hw" name="Page">
+        <modelElement href="abstract_factory_bad.uml#_YqMGAszaEeuS_-RlxiJ9Hw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_aZECsczaEeuS_-RlxiJ9Hw" name="Website">
+      <modelElement href="abstract_factory_bad.uml#_YqH0kMzaEeuS_-RlxiJ9Hw"/>
+      <keywords xmi:id="_aZECsszaEeuS_-RlxiJ9Hw" keyword="create"/>
+      <visibility xmi:id="_aZECs8zaEeuS_-RlxiJ9Hw" label="+"/>
+      <cardinality xmi:id="_aZECtMzaEeuS_-RlxiJ9Hw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aZECtczaEeuS_-RlxiJ9Hw">
+        <modelElement href="abstract_factory_bad.uml#_YqH0lMzaEeuS_-RlxiJ9Hw"/>
+        <type xmi:id="_aZECtszaEeuS_-RlxiJ9Hw" name="Website">
+          <modelElement href="abstract_factory_bad.uml#_YqGmc8zaEeuS_-RlxiJ9Hw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aZECt8zaEeuS_-RlxiJ9Hw" name="type">
+        <modelElement href="abstract_factory_bad.uml#_YqH0kczaEeuS_-RlxiJ9Hw"/>
+        <cardinality xmi:id="_aZECuMzaEeuS_-RlxiJ9Hw" label="1" max="1" min="1"/>
+        <type xmi:id="_aZECuczaEeuS_-RlxiJ9Hw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aZECuszaEeuS_-RlxiJ9Hw" name="getPages">
+      <modelElement href="abstract_factory_bad.uml#_YqH0lczaEeuS_-RlxiJ9Hw"/>
+      <visibility xmi:id="_aZECu8zaEeuS_-RlxiJ9Hw" label="+"/>
+      <cardinality xmi:id="_aZECvMzaEeuS_-RlxiJ9Hw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_aZECvczaEeuS_-RlxiJ9Hw">
+        <modelElement href="abstract_factory_bad.uml#_YqH0lszaEeuS_-RlxiJ9Hw"/>
+        <type xmi:id="_aZECvszaEeuS_-RlxiJ9Hw" name="Page">
+          <modelElement href="abstract_factory_bad.uml#_YqMGAszaEeuS_-RlxiJ9Hw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_aZECv8zaEeuS_-RlxiJ9Hw" name="createWebsite">
+      <modelElement href="abstract_factory_bad.uml#_YqH0mMzaEeuS_-RlxiJ9Hw"/>
+      <visibility xmi:id="_aZECwMzaEeuS_-RlxiJ9Hw" label="+"/>
+      <cardinality xmi:id="_aZECwczaEeuS_-RlxiJ9Hw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aZECwszaEeuS_-RlxiJ9Hw" name="type">
+        <modelElement href="abstract_factory_bad.uml#_YqH0mczaEeuS_-RlxiJ9Hw"/>
+        <cardinality xmi:id="_aZECw8zaEeuS_-RlxiJ9Hw" label="1" max="1" min="1"/>
+        <type xmi:id="_aZECxMzaEeuS_-RlxiJ9Hw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
